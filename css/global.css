@@ -1,0 +1,87 @@
+/*
+Colours
+#231F22
+#604433
+#CFBE91
+#FBECCB
+#BA6848
+*/
+header {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #231F22;
+}
+header h1 {
+    color: #FBECCB;
+}
+nav {
+    padding: 32px;
+    background-color: #604433;
+}
+body {
+    padding: 0;
+    margin: 0;
+    display: block;
+    background-color: #FBECCB;
+    font-family: 'Roboto', sans-serif;;
+}
+main {
+    padding: 64px;
+}
+.about {
+    display: block;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin-top: -20px;
+    padding: 12px;
+}
+nav li {
+    float: left;
+}
+nav li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px;
+    background-color: #BA6848;
+}
+nav li a:hover {
+    background-color: #ba68487a;
+}
+.schedule ul {
+    list-style-type: none;
+    display: inline-block;
+    padding: 24px;
+}
+.schedule li {
+    align-content: center;
+}
+.blogs p {
+    text-align: center;
+    display: block;
+}
+.blogs img {
+    display: block;
+    margin: 0 auto 0 auto;
+}
+.blogs h1 {
+    padding-bottom: 16px;
+}
+.blogs a {
+    display:inline-block;
+    width:300px;
+    height:300px;
+    background-color:#CFBE91    ;
+    border:1px solid #BA6848;
+    text-align: center;
+    font-size: 64px;
+    padding: 0 24px;
+    text-decoration: none;
+}
+footer {
+    padding: 32px;
+    background-color: #604433 ;
+}
